@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServlet
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse
 
-@WebServlet(name = "BeerSelect", urlPatterns = arrayOf("/SelectBeer.do"))
+//@WebServlet(name = "BeerSelect", urlPatterns = arrayOf("/SelectBeer.do"))
 class BeerSelect : HttpServlet(){
     override fun doPost(req: HttpServletRequest?, resp: HttpServletResponse?) {
 
